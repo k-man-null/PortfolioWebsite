@@ -3,6 +3,7 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import { Layout, Row, Col, Anchor, Space, Button, Card, Typography, Form, Input , Divider, Popover} from 'antd';
 import { LinkedinOutlined, GithubOutlined, YoutubeOutlined, InfoCircleOutlined } from '@ant-design/icons';
+
 const  { Title } = Typography;
 
 
@@ -34,10 +35,13 @@ function Home() {
                 style={{
                 fontSize: "30px"
               }}/>
+              <a href="https://github.com/k-man-null">
               <GithubOutlined 
               style={{
                 fontSize: "30px"
               }}/>
+              </a>
+              
               <YoutubeOutlined
                 style={{
                   fontSize: "30px"
