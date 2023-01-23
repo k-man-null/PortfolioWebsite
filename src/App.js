@@ -90,20 +90,20 @@ function About() {
 function Projects() {
   const projects = [
     {
-      title: 'Project 1',
-      image: 'https://via.placeholder.com/200x200.jpg',
-      githubLink: 'https://github.com/project1',
-      projectLink: 'https://project1.com',
+      title: 'Spotify Clone',
+      image: 'spotifyClone.png',
+      githubLink: 'https://github.com/k-man-null/musica-rondo',
+      projectLink: 'https://musica-rondo.vercel.app/',
       demoLink: 'https://www.youtube.com/watch?v=abcdefg',
-      desc: 'Another api'
+      desc: 'FullStack music player'
     },
     {
-      title: 'Project 2',
-      image: 'https://via.placeholder.com/200x200.jpg',
-      githubLink: 'https://github.com/project2',
-      projectLink: 'https://project2.com',
+      title: 'Dice Angular',
+      image: 'diceGame.png',
+      githubLink: 'https://github.com/k-man-null/DiceGame',
+      projectLink: 'https://dice-game-270l2gpah-k-man-null.vercel.app/',
       demoLink: 'https://www.youtube.com/watch?v=hijklmnop',
-      desc: 'An api'
+      desc: 'An OOP Typescript Angular dice game'
     },
     {
       title: 'Project 2',
